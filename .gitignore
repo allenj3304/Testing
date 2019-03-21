@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/MySharePointApp/.vs
+/MySharePointApp/MySharePointApp/bin/Debug
+/MySharePointApp/MySharePointApp/obj/Debug
+/MySharePointApp/MySharePointApp/pkgobj/Debug
+/MySharePointApp/MySharePointAppWeb/bin
+/MySharePointApp/MySharePointAppWeb/obj/Debug
+/MySharePointApp/packages
+/MySharePointApp/_ReSharper.Caches/ReSharperPlatformVs15183_df77351a.MySharePointApp.00

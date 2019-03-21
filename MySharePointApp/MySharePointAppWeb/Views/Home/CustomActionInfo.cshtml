@@ -1,0 +1,36 @@
+﻿@model MySharePointAppWeb.Models.ListInfoModel
+
+@{
+    ViewBag.Title = "Custom Action Info";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-info">Values available from the Command UI handler element of the SharePoint Custom Action</p>
+<a href="https://docs.microsoft.com/en-us/sharepoint/dev/schema/commanduihandler-element">More Info on MS Docs</a>
+
+<a href="https://social.msdn.microsoft.com/Forums/windowshardware/en-US/58e36bdd-0af7-4ca0-9fb1-98f945dbf60c/url-token-for-custom-action-on-ribbon-does-not-work-from-library-webpart-in-modern-ui">MS Forum Post</a>
+
+<dl>
+    <dt>List ID</dt>
+    <dd>@Model.ListId</dd>
+
+    <dt>List Title</dt>
+    <dd>@Model.ListTitle</dd>
+
+    <dt>Selected List ID</dt>
+    <dd>@Model.SelectedListId</dd>
+
+    <dt>Selected List Title</dt>
+    <dd>@Model.SelectedListTitle</dd>
+
+    <dt>Selected Item ID</dt>
+    <dd>@Model.SelectedItemId</dd>
+
+    <dt>ListUrlDir</dt>
+    <dd>@Model.ListUrlDir</dd>
+    
+    <dt>Source</dt>
+    <dd>@Model.Source</dd>
+
+</dl>

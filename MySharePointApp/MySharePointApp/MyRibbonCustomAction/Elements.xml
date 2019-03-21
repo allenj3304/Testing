@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="92969cd3-27e7-472c-a1b3-1c7522fd013e.MyRibbonCustomAction"
+                RegistrationType="List"
+                RegistrationId="101"
+                Location="CommandUI.Ribbon"
+                Sequence="10011"
+                Title="Invoke &apos;MyRibbonCustomAction&apos; action">
+    <CommandUIExtension>
+      <!-- 
+      Update the UI definitions below with the controls and the command actions
+      that you want to enable for the custom action.
+      -->
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Library.Groups._children">
+          <Group Id="92969cd3-27e7-472c-a1b3-1c7522fd013e.MyRibbonCustomAction.Group"
+                 Description="My Library Group"
+                 Title="My Custom Actions"
+                 Sequence="90"
+                 Template="Ribbon.Templates.Flexible2">
+            <Controls Id="92969cd3-27e7-472c-a1b3-1c7522fd013e.MyRibbonCustomAction.Controls">
+              <Button Id="Ribbon.Library.MyGroup.MyRibbonCustomActionButton"
+                      Alt="Request MyRibbonCustomAction"
+                      Sequence="100"
+                      Command="Invoke_MyRibbonCustomActionButtonRequest"
+                      LabelText="List Info"
+                      TemplateAlias="o1"
+                      Image32by32="_layouts/15/images/placeholder32x32.png"
+                      Image16by16="_layouts/15/images/placeholder16x16.png" />
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Scaling._children">
+          <MaxSize 
+            Id="92969cd3-27e7-472c-a1b3-1c7522fd013e.MyRibbonCustomAction.Scaling.MaxSize"
+            Sequence="15"
+            GroupId="92969cd3-27e7-472c-a1b3-1c7522fd013e.MyRibbonCustomAction.Group"
+            Size="LargeLarge" />
+        </CommandUIDefinition>        
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Invoke_MyRibbonCustomActionButtonRequest"
+                          CommandAction="~remoteAppUrl/Home/CustomActionInfo?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}&amp;ListId={ListId}&amp;ListUrlDir={ListUrlDir}&amp;Source={Source}"/>
+
+      </CommandUIHandlers>
+    </CommandUIExtension >
+  </CustomAction>
+</Elements>
