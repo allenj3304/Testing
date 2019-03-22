@@ -4,11 +4,11 @@
 
 /.vs
 /MySharePointApp/.vs
-/MySharePointApp/MySharePointApp/bin/Debug
-/MySharePointApp/MySharePointApp/obj/Debug
-/MySharePointApp/MySharePointApp/pkgobj/Debug
+/MySharePointApp/MySharePointApp/bin
+/MySharePointApp/MySharePointApp/obj
+/MySharePointApp/MySharePointApp/pkgobj
 /MySharePointApp/MySharePointAppWeb/bin
-/MySharePointApp/MySharePointAppWeb/obj/Debug
+/MySharePointApp/MySharePointAppWeb/obj
 /MySharePointApp/packages
 /MySharePointApp/_ReSharper.Caches/ReSharperPlatformVs15183_df77351a.MySharePointApp.00
 *.user
