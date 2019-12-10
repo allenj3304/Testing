@@ -35,6 +35,13 @@ namespace MySharePointAppWeb.Controllers
 
                     // Save the token for Token Utility
                     var token = new TokenUtility().GetContextTokenFromRequest(this.HttpContext);
+                    
+                    // Can I get the client's TenantId for licensing validation.
+                    var realm = TokenHelper.GetRealmFromTargetUrl(sharePointContext.SPHostUrl);
+                    string xrsTenantId = "c81ab8f0-183e-44c1-9faf-54c1f6a6f3d7";
+                    System.Diagnostics.Debug.Assert(realm == xrsTenantId, "Found XRS Tenant Id!");
+
+                    this.ViewBag.TenantId = realm;
                 }
             }
 
