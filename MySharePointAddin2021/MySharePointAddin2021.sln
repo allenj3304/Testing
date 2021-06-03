@@ -14,6 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2021.148.200", "2.2021.14
 		app.publish\2.2021.148.200\MySharePointAddin2021.app = app.publish\2.2021.148.200\MySharePointAddin2021.app
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{310E8A33-D8FE-4AE6-A805-2047563BF38B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
