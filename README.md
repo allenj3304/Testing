@@ -14,7 +14,6 @@ Exercice for the CommandUIHandler element [Microsoft Documentation](https://docs
 # Project MySharePointAddin2021
 A sample provider hosted SharePoint Add-in for testing
 
-# Project: MySharePointAddin2021
 A C# provider hosted SharePoint-Addin for testing.
 - Created using SharePoint App template
 - Provider Hosted
