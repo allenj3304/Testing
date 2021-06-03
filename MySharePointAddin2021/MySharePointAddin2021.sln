@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySharePointAddin2021", "MySharePointAddin2021\MySharePointAddin2021.csproj", "{D7F89E24-41E9-4BCF-B100-21A227E938E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySharePointAddin2021Web", "MySharePointAddin2021Web\MySharePointAddin2021Web.csproj", "{708BE53B-9AA7-4689-BEAB-A3E0C68B7AB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app.publish", "app.publish", "{0F59ADAC-CBBA-4971-9C25-D144F6D90979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2021.148.200", "2.2021.148.200", "{226417ED-9DA3-4C78-A209-970D84883E2C}"
+	ProjectSection(SolutionItems) = preProject
+		app.publish\2.2021.148.200\MySharePointAddin2021.app = app.publish\2.2021.148.200\MySharePointAddin2021.app
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F89E24-41E9-4BCF-B100-21A227E938E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F89E24-41E9-4BCF-B100-21A227E938E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F89E24-41E9-4BCF-B100-21A227E938E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D7F89E24-41E9-4BCF-B100-21A227E938E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F89E24-41E9-4BCF-B100-21A227E938E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F89E24-41E9-4BCF-B100-21A227E938E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{708BE53B-9AA7-4689-BEAB-A3E0C68B7AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708BE53B-9AA7-4689-BEAB-A3E0C68B7AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708BE53B-9AA7-4689-BEAB-A3E0C68B7AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708BE53B-9AA7-4689-BEAB-A3E0C68B7AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{226417ED-9DA3-4C78-A209-970D84883E2C} = {0F59ADAC-CBBA-4971-9C25-D144F6D90979}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B302E6-BCDF-4BF1-8607-E8F497B4F9F9}
+	EndGlobalSection
+EndGlobal

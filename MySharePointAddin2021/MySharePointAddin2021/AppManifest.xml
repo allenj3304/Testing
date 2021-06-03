@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="MySharePointAddin2021"
+     ProductID="{cac5a03b-1fba-44ce-b9e1-548f05060619}"
+     Version="2.2021.148.200"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>MySharePointAddin2021</Title>
+    <StartPage>~remoteAppUrl/?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="*" />
+  </AppPrincipal>
+</App>

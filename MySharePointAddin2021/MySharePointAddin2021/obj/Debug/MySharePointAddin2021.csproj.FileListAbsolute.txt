@@ -1,0 +1,12 @@
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\bin\Debug\MySharePointAddin2021.dll.config
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\bin\Debug\MySharePointAddin2021.pdb
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.csprojAssemblyReference.cache
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.csproj.CoreCompileInputs.cache
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.dll
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.pdb
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\MySharePointAddin2021\bin\Debug\MySharePointAddin2021.dll.config
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\MySharePointAddin2021\bin\Debug\MySharePointAddin2021.pdb
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.csprojAssemblyReference.cache
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.csproj.CoreCompileInputs.cache
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.dll
+D:\Users\Allen\Source\Repos\MySharePointAddin2021\MySharePointAddin2021\obj\Debug\MySharePointAddin2021.pdb
