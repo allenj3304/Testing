@@ -12,7 +12,7 @@ namespace MySharePointAddin2021Web.Controllers
         [SharePointContextFilter]
         public ActionResult Index()
         {
-            SharePointContext context = SharePointContextProvider.Current.GetSharePointContext(HttpContext);
+            SharePointContext context = SharePointContextProvider.Current.GetSharePointContext(this.HttpContext);
 
             using (ClientContext clientContext = context.CreateUserClientContextForSPHost())
             {
@@ -28,6 +28,8 @@ namespace MySharePointAddin2021Web.Controllers
                 }
             }
 
+            this.ViewBag.Version = this.GetType().Assembly.GetName().Version;
+
             return this.View();
         }
 
@@ -42,6 +44,12 @@ namespace MySharePointAddin2021Web.Controllers
             this.ViewBag.Message = "Your application description page.";
 
             this.ViewBag.Version = this.GetType().Assembly.GetName().Version;
+
+            string selfRegClientSecret= System.Web.Configuration.WebConfigurationManager.AppSettings.Get("SelfRegClientSecret");
+            this.ViewBag.AzureAppSetting = string.IsNullOrEmpty(selfRegClientSecret)
+                ? "SelfRegClientSecret NOT FOUND!"
+                : "Valid SelfRegClientSecret";
+
             return this.View();
         }
 
